@@ -20,6 +20,6 @@ app.include_router(
 @app.get("/")
 async def root():
     return{
-        "message": f"welcome to {settings.app_name}",
+        "message": f"Welcome to {settings.app_name}",
         "docs": "/docs",
     } 
