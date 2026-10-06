@@ -8,5 +8,5 @@ router = APIRouter()
 async def health_check():
     return {
         "status": "ok",
-        "message": "WeatherWise API is running",
+        "message": "WeatherWise API is running very well",
     }
