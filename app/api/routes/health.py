@@ -10,3 +10,4 @@ async def health_check():
         "status": "ok",
         "message": "WeatherWise API is running",
     }
+
